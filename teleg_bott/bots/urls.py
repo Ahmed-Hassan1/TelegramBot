@@ -2,5 +2,5 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('',botRecieve,name="home"),
+    path('naif',botRecieve,name="home"),
 ]
